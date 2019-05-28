@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65264" started-at="2019-05-28T09:53:53Z" finished-at="2019-05-28T09:54:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65264" started-at="2019-05-28T09:53:53Z" finished-at="2019-05-28T09:54:58Z">
+      <class name="com.org.callhub.LoginPage">
+        <test-method status="PASS" signature="BeforeTestRun()[pri:0, instance:com.org.callhub.LoginPage@5bcea91b]" name="BeforeTestRun" is-config="true" duration-ms="12850" started-at="2019-05-28T09:53:40Z" finished-at="2019-05-28T09:53:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestRun -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.org.callhub.LoginPage@5bcea91b]" name="Login" duration-ms="7680" started-at="2019-05-28T09:53:53Z" finished-at="2019-05-28T09:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="LoginSign()[pri:0, instance:com.org.callhub.LoginPage@5bcea91b]" name="LoginSign" duration-ms="23379" started-at="2019-05-28T09:54:01Z" depends-on-methods="com.org.callhub.LoginPage.Login" finished-at="2019-05-28T09:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSign -->
+        <test-method status="PASS" signature="Voice()[pri:0, instance:com.org.callhub.LoginPage@5bcea91b]" name="Voice" duration-ms="34156" started-at="2019-05-28T09:54:24Z" depends-on-methods="com.org.callhub.LoginPage.LoginSign, com.org.callhub.LoginPage.Login" finished-at="2019-05-28T09:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Voice -->
+      </class> <!-- com.org.callhub.LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
